@@ -40,6 +40,7 @@ a{
 	padding-right: 5px;
 	padding-bottom: 5px;
 	padding-left: 5px;
+	border-radius: 5px;
 }
 .headborder
 {
@@ -49,6 +50,7 @@ a{
 	text-align:center
 }
 th {
+	width:200px;
 	text-align:left;
 }
 table#t01 {
@@ -60,13 +62,14 @@ table#t01 {
 	padding-bottom: 10px;
 	padding-left: 10px;
 	padding-top: 10px;
-	alignment-adjust:central
-	
+	alignment-adjust:central	
+}
+ul {
+	list-style:none
 }
 .bodytext
 {
 	border-style: solid;
-
 	border-color:  #1FA25B;
 	background-color: #1FA25B;
 	padding-top: 10px;
@@ -137,21 +140,51 @@ table#t01 {
 }
 .staffsidepictureleft img
 {
+	position: relative;
 	border-style:solid;
 	border-color:#030;
 	margin-left:10px;
-	margin-top:10px;
+	margin-top:0px;
+	margin: 20px;
 	float:left;
 }
 .staffsidepictureright img
 {
+	position: relative;
 	border-style:solid;
 	border-color:#390;
 	margin-right:10px;
-	margin-top:10px;
+	margin-top:0px;
 	float:right;
 }
 .tableinfo
 {
 	text-align:center;
 }
+.lefttext
+{
+	border-style:none;
+	background-color:#149049;
+	margin:50px;
+	margin-left: 200px;
+	padding: 50px;
+}
+
+.righttext
+{
+	border-style:none;
+	background-color:#149049;
+	margin:100px;
+	padding: 50px;
+}
+
+.sewingpicture
+{
+	float:right;
+	margin-right: 10%;
+
+}
+.djpicture
+{
+	margin-left: 10%;
+	
